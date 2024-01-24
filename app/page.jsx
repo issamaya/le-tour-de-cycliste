@@ -1,95 +1,51 @@
-import Image from 'next/image'
-import styles from './page.module.css'
 
-export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+// OttawaTour.js
+import Image from 'next/image';
+import tourOttawa2 from '@/public/Cyclisme.jpg';
+import tourOttawa from '@/public/Tour-cycliste.jpg';
+import styles from './page.module.css'; 
+
+export default function OttawaTour() {
+  return <div className={styles.ottawaTour}>
+      <h1>Le Tour du Cycliste </h1>
+      <div className={styles.imgHead}>
+      <Image src={tourOttawa} alt="Tour du Cycliste à Ottawa" width={400} height={200} />
+      <Image src={tourOttawa2} alt="Tour du Cycliste à Ottawa" width={400} height={200} />
       </div>
+      <p className={styles.p}>
+      Bienvenue à OT-Cyclisme, l'événement de cyclisme incontournable
+                         qui captivera les amateurs de vélo à Ottawa et Toronto. Plongez dans l'univers
+                          passionnant du cyclisme de classe mondiale alors que notre événement transforme 
+                          ces deux grandes villes en scènes épiques de compétition. Inspiré par la grandeur 
+                          du Tour de France, notre course de cyclisme promet des jours palpitants de
+                           compétition acharnée, répartis sur des pistes spécialement conçues à travers
+                            Ottawa et Toronto. Venez admirer la puissance, l'endurance et la stratégie
+                             des cyclistes professionnels qui rivalisent pour la victoire dans chaque 
+                             étape de notre événement. Que vous soyez un fervent fan de cyclisme ou 
+                             simplement à la recherche d'une expérience mémorable, OT-Cyclisme 
+                             vous invite à vous joindre à nous pour célébrer la passion du cyclisme et
+                             vivre l'excitation de cette course exceptionnelle entre deux métropoles 
+                             dynamiques. Préparez-vous à être ébloui par l'énergie électrisante de la 
+                             compétition cycliste à son meilleur.
+      </p>
+<section className={styles.section}>
+    <h2 className={styles.h2}>Itinéraires</h2>
+</section>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+<section className={styles.section}>
+    <h2 className={styles.h2}>Cartes</h2> 
+</section>
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+<section className={styles.section}>
+    <h2 className={styles.h2}>Renseignements</h2>
+</section>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
+<section className={styles.section}>
+    <h2 className={styles.h2}>Contact</h2>
+</section>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+    </div>
+    
+  
 }
+
