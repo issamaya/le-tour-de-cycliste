@@ -15,7 +15,7 @@ export default function Header() {
         </div>
         <MenuNav />
       </div>
-      <Image className={styles.ville}  src={ville} alt='logo du cyclisme' />
+      <Image className={styles.ville} src={ville} alt='logo du cyclisme' />
     </header>
   );
 }

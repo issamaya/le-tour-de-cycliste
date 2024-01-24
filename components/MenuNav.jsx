@@ -1,6 +1,6 @@
 import styles from './MenuNav.module.css'
 
-export default function(){
+export default function () {
     return <nav className={styles.nav}>
         <ul>
             <li><a href="#">tour Ottawa</a></li>

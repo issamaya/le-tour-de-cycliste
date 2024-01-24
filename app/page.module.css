@@ -1,53 +1,48 @@
-/* OttawaTour.module.css */
 .ottawaTour {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-/* Définissez la largeur de chaque section pour occuper la moitié de la largeur du conteneur */
+
 .section {
-    width: calc(50% - 10px); /* Utilisez calc pour laisser un espace de 10px entre les sections */
-    margin-top: 20px;
-    box-sizing: border-box; /* Assurez-vous que la largeur inclut le padding et la bordure */
+  width: calc(50% - 10px);
+  margin-top: 20px;
+  box-sizing: border-box;
 }
-  
-  /* Style pour le titre */
-  .h1 {
-    color: #333;
-    text-align: center;
-  }
-  
-  /* Style pour l'image représentative */
-  .img {
-    display: block;
-    margin: 20px auto;
-    align-items: center;
-    max-width: 100%;
-    height: auto;
-  }
-  
-  /* Style pour les sous-titres des sections */
-  .h2 {
-    color: #555;
-  }
-  
-  /* Style pour les paragraphes */
-  .p {
-    line-height: 1.5;
-    color: #666;
-  }
-  
-  /* Ajoutez d'autres styles selon vos préférences */
-  .imgHead{
-    display: flex;
-    margin: 20px auto;
-    align-items: center;
-    max-width: 100%;
-    height: auto;
-  }
 
-  .p{
-    
+
+.h1 {
+  color: #333;
+  text-align: center;
+}
+
+
+.img {
+  display: block;
+  margin: 20px auto;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.h2 {
+  color: #555;
+}
+
+
+.p {
+  line-height: 1.5;
+  color: #666;
+}
+
+
+.imgHead {
+  display: flex;
+  margin: 20px auto;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
 }
