@@ -33,7 +33,7 @@ export default function MontrealTour() {
             compétition cycliste à son meilleur.
         </p>
         <section className={styles.section}>
-            <Toggler titre="Itinéraires">
+            <Toggler titre="Images">
                 le tour va debuter de otawa centre vers kanata west
             </Toggler>
         </section>
