@@ -25,6 +25,7 @@
 }
 
 .imgHead {
+    object-fit: cover;
     display: flex;
     flex-wrap: wrap;
     margin: 20px auto;
@@ -33,6 +34,7 @@
 }
 
 .image {
+    object-fit: cover;
     display: flex;
     margin: 20px auto;
     align-items: center;

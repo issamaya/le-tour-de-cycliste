@@ -11,8 +11,7 @@ export default function MenuNav({ setPage }) {
                     <li><a href="#" onClick={() => setPage("Montreal")}>Montreal</a></li>
                 </Toggler>
             </section>
-            <li><a href="#" onClick={() => setPage("inscription")}>inscription</a></li>
-            <li><a href="#" onClick={() => setPage("reservation")}>reservation</a></li>
+           
         </ul>
     </nav>
 }

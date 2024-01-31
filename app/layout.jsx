@@ -6,8 +6,6 @@ import Footer from '@/components/Footer';
 import Accueil from '@/components/Accueil';
 import Ottawa from '@/components/Ottawa';
 import Montreal from '@/components/Montreal';
-import Inscription from '@/components/Inscription';
-import Reservation from '@/components/Reservation';
 import { Inter } from 'next/font/google';
 import { useState } from 'react'
 import '@/style/globals.css';
@@ -32,10 +30,6 @@ export default function RootLayout({ children }) {
             <Ottawa />
             : page === 'Montreal' ?
              <Montreal />
-            : page === 'inscription' ?
-            <Inscription />
-            : page === 'reservation' ?
-            <Reservation />
             :
             <div> 404 - Not Found </div>
           }

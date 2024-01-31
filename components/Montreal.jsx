@@ -40,24 +40,24 @@ export default function MontrealTour() {
             compétition cycliste à son meilleur.
         </p>
         <section className={styles.section}>
-  <Toggler titre="Images">
-    <p className={styles.pp}>
-      Découvrez les images passionnantes que le Tour de Montréal a à offrir.
-      Parcourez les rues pittoresques de Montréal et explorez des parcours soigneusement
-      planifiés qui mettront à l'épreuve les compétiteurs tout en offrant des vues
-      spectaculaires. Que vous soyez coureur professionnel ou simple passionné de
-      cyclisme, nos itinéraires variés offrent une expérience unique à chaque étape.
-    </p>
-    <div className={styles.imgHead}>
-      <Image className={styles.img} src={Mont_royal} alt="Mont_royal" width={300} height={500} />
-      <Image className={styles.img} src={parc_LaFontaine} alt="parc_LaFontaine" width={300} height={500} />
-      <Image className={styles.img} src={place_jacque_quartier} alt="place_jacque_quartier" width={300} height={500} />
-      <Image className={styles.img} src={quartier_des_spectacles} alt="quartier_des_spectacles" width={300} height={500} />
-      <Image className={styles.img} src={vieux_montreal} alt="vieux_montreal" width={300} height={500} />
-      <Image className={styles.img} src={vieux_port} alt="vieux_port" width={300} height={500} />
-    </div>
-  </Toggler>
-</section>
+            <Toggler titre="Images">
+                <p className={styles.pp}>
+                    Découvrez les images passionnantes que le Tour de Montréal a à offrir.
+                    Parcourez les rues pittoresques de Montréal et explorez des parcours soigneusement
+                    planifiés qui mettront à l'épreuve les compétiteurs tout en offrant des vues
+                    spectaculaires. Que vous soyez coureur professionnel ou simple passionné de
+                    cyclisme, nos itinéraires variés offrent une expérience unique à chaque étape.
+                </p>
+                <div className={styles.imgHead}>
+                    <Image className={styles.img} src={Mont_royal} alt="Mont_royal" width={300} height={500} />
+                    <Image className={styles.img} src={parc_LaFontaine} alt="parc_LaFontaine" width={300} height={500} />
+                    <Image className={styles.img} src={place_jacque_quartier} alt="place_jacque_quartier" width={300} height={500} />
+                    <Image className={styles.img} src={quartier_des_spectacles} alt="quartier_des_spectacles" width={300} height={500} />
+                    <Image className={styles.img} src={vieux_montreal} alt="vieux_montreal" width={300} height={500} />
+                    <Image className={styles.img} src={vieux_port} alt="vieux_port" width={300} height={500} />
+                </div>
+            </Toggler>
+        </section>
 
         <section className={styles.section}>
             <Toggler titre="Cartes">

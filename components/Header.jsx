@@ -37,6 +37,7 @@ export default function Header({ setPage }) {
           <Image className={styles.ville} src={marcheBy} alt="marcheBy" />
           <Image className={styles.ville} src={parlement} alt="lparlement" />
           <Image className={styles.ville} src={canalRideau} alt="canalRideau" />
+          
         </div>
       </Container>
 
