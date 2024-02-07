@@ -3,9 +3,9 @@
 
 // OttawaTour.js
 import Image from 'next/image';
-import tourOttawa2 from '@/public/Cyclisme.jpg';
 import Toggler from '@/components/Toggler';
-import tourOttawa from '@/public/tourOttawa.jpg';
+import Gallerie from './Gallerie'
+import galleriePokemon from '@/public/gallerie-pokemon.json'
 import Mont_royal from '@/public/Mont_royal.jpg';
 import parc_LaFontaine from '@/public/parc_LaFontaine.jpg';
 import place_jacque_quartier from '@/public/place_jacque_quartier.jpg';
@@ -20,8 +20,7 @@ export default function MontrealTour() {
     return <div className={styles.montrealTour}>
         <h1 className={styles.titre}>Le circuit de Montreal </h1>
         <div className={styles.image}>
-            <Image src={tourOttawa} alt="Tour du Cycliste à Montreal" width={600} height={200} />
-            <Image src={tourOttawa2} alt="Tour du Cycliste à Montreal" width={600} height={200} />
+        <Gallerie images={galleriePokemon.slice(2, 4)} />
         </div>
         <p className={styles.p}>
             Bienvenue à MT-Cyclisme, l'événement de cyclisme incontournable
@@ -80,6 +79,7 @@ export default function MontrealTour() {
                     <li>Arrêt 5: Vieux-Montréal</li>
                 </ul>
                 <Image src={itineraire_Montreal} className={styles.img} alt="itineraire_Montreal" width={800} height={400} />
+                <a href="https://maps.app.goo.gl/bii1FzFAFqMS3mAU7" target="_blank" className={styles.lien}> lien vers l'itineraire</a>
             </Toggler>
         </section>
 

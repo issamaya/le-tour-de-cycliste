@@ -23,8 +23,6 @@ export default function Acceuil() {
                 pour célébrer la joie du cyclisme ensemble.
             </p>
 
-
-            {/* Section Montreal */}
             <section className={styles.section}>
                 <h2>Le Tour du Cycliste Montreal</h2>
 
@@ -40,7 +38,6 @@ export default function Acceuil() {
                 </p>
             </section>
 
-            {/* Section Ottawa */}
             <section className={styles.section}>
                 <h2>Le Tour de Cycliste  Ottawa</h2>
 
@@ -56,7 +53,6 @@ export default function Acceuil() {
                 </p>
             </section>
 
-            {/* Autres sections pour d'autres événements ou informations */}
         </div>
 
     </>

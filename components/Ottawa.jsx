@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import Gallerie from './Gallerie'
+import galleriePokemon from '@/public/gallerie-pokemon.json'
 import Toggler from '@/components/Toggler';
 import canalRideau from '@/public/canalRideau.jpeg';
 import marcheBy from '@/public/marcheBy.jpeg';
@@ -7,17 +9,13 @@ import parcMajorHills from '@/public/parcMajorHills.jpeg';
 import premonadeSussex from '@/public/premonadeSussex.jpeg';
 import itineraireOttawa from '@/public/itineraireOttawa.png';
 import parlement from '@/public/parlement.jpeg';
-import tourOttawa2 from '@/public/Cyclisme.jpg';
-import tourOttawa from '@/public/Tour_cycliste.jpg';
-
 import styles from '../components/Ottawa.module.css';
 
 export default function OttawaTour() {
     return <div className={styles.ottawaTour}>
         <h1 className={styles.titre}>Le circuit de Ottawa </h1>
         <div className={styles.image}>
-            <Image src={tourOttawa} alt="Tour du Cycliste à Ottawa" width={600} height={200} />
-            <Image src={tourOttawa2} alt="Tour du Cycliste à Ottawa" width={600} height={200} />
+        <Gallerie images={galleriePokemon.slice(0, 2)} />
         </div>
         <p className={styles.p}>
             Bienvenue à OM-Cyclisme, l'événement de cyclisme incontournable
@@ -76,8 +74,10 @@ export default function OttawaTour() {
                     <li>Arrêt 4: Marché Byward</li>
                     <li>Arrêt 5: Colline du Parlement</li>
                 </ul>
-
                 <Image src={itineraireOttawa} className={styles.img} alt="itineraireOttawa" width={300} height={200} />
+
+               <a href="https://maps.app.goo.gl/b4DFoGzNEaHYCEN66" target="_blank" className={styles.lien}> lien vers l'itineraire</a>
+               
 
             </Toggler>
         </section>

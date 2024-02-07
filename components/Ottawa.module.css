@@ -62,12 +62,21 @@
   color: #666;
 }
 
+.lien{
+  font-size: 36px;
+  color: blue;
+  margin: 1rem;
+  padding: 2rem;
+}
+
 
 /*les petit ecrans */
 
 @media screen and (max-width: 1200px) {
   .ottawaTour {
     flex-direction: column;
+    min-width: 400px; 
+    margin: 0 auto; 
   }
 
   .section {
@@ -83,6 +92,13 @@
 
   .img {
     flex: 0 0 48%;
+    margin-bottom: 20px;
+  }
+
+
+  .image {
+    width: 100%; /* Occupe toute la largeur */
+    margin: 0 auto; /* Centre horizontalement */
     margin-bottom: 20px;
   }
 }

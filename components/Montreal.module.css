@@ -77,11 +77,20 @@
     transform: scale(1.6);
 }
 
+.lien {
+    font-size: 36px;
+    color: blue;
+    margin: 1rem;
+    padding: 2rem;
+}
+
 /* les petits ecrans*/
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
     .MontrealTour {
         flex-direction: column;
+        min-width: 400px;
+        margin: 0 auto;
     }
 
     .section {
@@ -104,4 +113,5 @@
         flex: 0 0 48%;
         margin-bottom: 20px;
     }
+
 }
