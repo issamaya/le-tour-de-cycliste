@@ -11,7 +11,9 @@ export default function MenuNav({ setPage }) {
                     <li><Link href="/Ottawa" >Ottawa</Link></li>
                     <li><Link href="/Montreal" >Montreal</Link></li>
                 </Toggler>
+                
             </section>
+            <li><Link href="/Formulaire" className={styles.contact} >Contact</Link></li>
            
         </ul>
     </nav>

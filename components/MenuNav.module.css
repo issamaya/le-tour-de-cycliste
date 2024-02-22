@@ -7,22 +7,29 @@
   padding: 0;
 }
 
-.nav a {
+.nav Link {
   cursor: pointer;
   font-size: 24px;
   color: #000;
   text-decoration: none;
 }
 
+
+.contact{
+  color: blue;
+  font-size: 24px;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 1200px) {
-  .nav a {
+  .nav Link {
     font-size: 10px;
   }
 }
 
 /* Pour les petits écrans */
 @media screen and (max-width: 600px) {
-  .nav a {
+  .nav Link {
     font-size: 8px;
   }
 
