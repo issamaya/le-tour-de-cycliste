@@ -14,18 +14,19 @@ import parlement from '@/public/parlement.jpeg'
 import canalRideau from '@/public/canalRideau.jpeg'
 import styles from './Header.module.css';
 import MenuNav from './MenuNav';
+import Link from 'next/link';
 
 export default function Header({ setPage }) {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
         <div className={styles.logoContainer}>
-          <a href="#" className={styles.titre} onClick={() => setPage('accueil')}>
+          <Link href="/" className={styles.titre}>
             <Image className={styles.logo} src={logo} alt="logo du cyclisme" />
             <h1>Cyclisme pour tout le monde </h1>
-          </a>
+          </Link>
         </div>
-        <MenuNav setPage={setPage} />
+        <MenuNav />
       </div>
       <Container fluid className={styles.container}>
         <div className={styles.scrollContainer}>

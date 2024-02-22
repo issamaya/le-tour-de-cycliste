@@ -1,9 +1,11 @@
+
+'use client'
 import Image from 'next/image'
 
-import styles from './Gallerie.module.css'
+
 
 export default function Gallerie({images}) {
-    return <div className={styles.gallerie}>
+    return <div>
         {images.map((image) => 
             <Image 
                 src={image.src} 

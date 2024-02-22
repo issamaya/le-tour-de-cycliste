@@ -43,9 +43,7 @@
   background-color: lightblue;
 }
 
-.container {
-  overflow: hidden;
-}
+
 
 .scrollContainer {
   display: flex;

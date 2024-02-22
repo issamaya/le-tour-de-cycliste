@@ -1,4 +1,5 @@
 
+import Link from 'next/link'
 import styles from './MenuNav.module.css'
 import Toggler from './Toggler'
 
@@ -7,8 +8,8 @@ export default function MenuNav({ setPage }) {
         <ul>
             <section>
                 <Toggler titre="lien vers les tours" className={styles.lien}>
-                    <li><a href="#" onClick={() => setPage("Ottawa")}>Ottawa</a></li>
-                    <li><a href="#" onClick={() => setPage("Montreal")}>Montreal</a></li>
+                    <li><Link href="/Ottawa" >Ottawa</Link></li>
+                    <li><Link href="/Montreal" >Montreal</Link></li>
                 </Toggler>
             </section>
            
