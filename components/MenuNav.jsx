@@ -3,7 +3,7 @@ import Link from 'next/link'
 import styles from './MenuNav.module.css'
 import Toggler from './Toggler'
 
-export default function MenuNav({ setPage }) {
+export default function MenuNav() {
     return <nav className={styles.nav}>
         <ul>
             <section>

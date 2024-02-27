@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Gallerie from '../../components/Gallerie'
-import galleriePokemon from '@/public/gallerie-pokemon.json'
+import gallerieCyclisme from '@/public/gallerie-cyclisme.json'
 import Toggler from '@/components/Toggler';
 import canalRideau from '@/public/canalRideau.jpeg';
 import marcheBy from '@/public/marcheBy.jpeg';
@@ -16,7 +16,7 @@ export default function OttawaTour() {
     return <div className={styles.ottawaTour}>
         <h1 className={styles.titre}>Le circuit de Ottawa </h1>
         <div className={styles.image}>
-        <Gallerie className={styles.gallerie} images={galleriePokemon.slice(0, 2)} />
+        <Gallerie className={styles.gallerie} images={gallerieCyclisme.slice(0, 2)} />
         </div>
         <p className={styles.p}>
             Bienvenue à OM-Cyclisme, l'événement de cyclisme incontournable

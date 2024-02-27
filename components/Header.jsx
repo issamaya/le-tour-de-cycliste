@@ -16,7 +16,7 @@ import styles from './Header.module.css';
 import MenuNav from './MenuNav';
 import Link from 'next/link';
 
-export default function Header({ setPage }) {
+export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.container}>

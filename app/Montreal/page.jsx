@@ -5,7 +5,7 @@
 import Image from 'next/image';
 import Toggler from '@/components/Toggler';
 import Gallerie from '../../components/Gallerie'
-import galleriePokemon from '@/public/gallerie-pokemon.json'
+import gallerieCyclisme from '@/public/gallerie-cyclisme.json'
 import Mont_royal from '@/public/Mont_royal.jpg';
 import parc_LaFontaine from '@/public/parc_LaFontaine.jpg';
 import place_jacque_quartier from '@/public/place_jacque_quartier.jpg';
@@ -21,7 +21,7 @@ export default function MontrealTour() {
     return <div className={styles.montrealTour}>
         <h1 className={styles.titre}>Le circuit de Montreal </h1>
         <div className={styles.image}>
-        <Gallerie images={galleriePokemon.slice(2, 4)} />
+        <Gallerie images={gallerieCyclisme.slice(2, 4)} />
         </div>
         <p className={styles.p}>
             Bienvenue à MT-Cyclisme, l'événement de cyclisme incontournable
