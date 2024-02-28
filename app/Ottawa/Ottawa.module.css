@@ -12,7 +12,6 @@
   padding: 0 1rem;
 }
 
-
 .titre {
   color: #7c0808;
   font-size: 60px;
@@ -64,22 +63,19 @@
   color: #666;
 }
 
-.lien{
+.lien {
   font-size: 36px;
   color: blue;
   margin: 1rem;
   padding: 2rem;
 }
 
-
-
-
 /*les petit ecrans */
 
 @media screen and (max-width: 1200px) {
   .ottawaTour {
     flex-direction: column;
-    margin: 0 auto; 
+    margin: 0 auto;
   }
 
   .section {
@@ -100,12 +96,11 @@
     height: auto;
   }
 
-
   .image {
-    margin: 0 auto; 
+    margin: 0 auto;
     margin-bottom: 20px;
     max-width: 100%;
     height: auto;
   }
-  
+
 }

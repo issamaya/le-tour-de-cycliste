@@ -21,7 +21,7 @@ export default function MontrealTour() {
     return <div className={styles.montrealTour}>
         <h1 className={styles.titre}>Le circuit de Montreal </h1>
         <div className={styles.image}>
-        <Gallerie images={gallerieCyclisme.slice(2, 4)} />
+            <Gallerie images={gallerieCyclisme.slice(2, 4)} />
         </div>
         <p className={styles.p}>
             Bienvenue à MT-Cyclisme, l'événement de cyclisme incontournable

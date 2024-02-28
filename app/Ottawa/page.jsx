@@ -16,7 +16,7 @@ export default function OttawaTour() {
     return <div className={styles.ottawaTour}>
         <h1 className={styles.titre}>Le circuit de Ottawa </h1>
         <div className={styles.image}>
-        <Gallerie className={styles.gallerie} images={gallerieCyclisme.slice(0, 2)} />
+            <Gallerie className={styles.gallerie} images={gallerieCyclisme.slice(0, 2)} />
         </div>
         <p className={styles.p}>
             Bienvenue à OM-Cyclisme, l'événement de cyclisme incontournable
@@ -77,8 +77,8 @@ export default function OttawaTour() {
                 </ul>
                 <Image src={itineraireOttawa} className={styles.img} alt="itineraireOttawa" width={300} height={200} />
 
-               <Link href="https://maps.app.goo.gl/b4DFoGzNEaHYCEN66" target="_blank" className={styles.lien}> lien vers l'itineraire</Link>
-               
+                <Link href="https://maps.app.goo.gl/b4DFoGzNEaHYCEN66" target="_blank" className={styles.lien}> lien vers l'itineraire</Link>
+
 
             </Toggler>
         </section>
