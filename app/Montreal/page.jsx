@@ -42,7 +42,7 @@ export default function MontrealTour() {
         <section className={styles.section}>
             <Toggler titre="Images">
                 <p className={styles.pp}>
-                    Découvrez les images passionnantes que le Tour de Montréal a à offrir.
+                    Découvrez les paysages passionnantes que le Tour de Montréal a à offrir.
                     Parcourez les rues pittoresques de Montréal et explorez des parcours soigneusement
                     planifiés qui mettront à l'épreuve les compétiteurs tout en offrant des vues
                     spectaculaires. Que vous soyez coureur professionnel ou simple passionné de
