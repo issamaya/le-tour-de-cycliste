@@ -16,6 +16,18 @@ import vieux_port from '@/public/vieux_port.jpg';
 import styles from '../Montreal/Montreal.module.css'
 import Link from 'next/link';
 
+/**
+ * @type {import("next").Metadata}
+ */
+export const metadata = {
+    title: 'Cyclisme | Tour Montréal',
+    description: 'Présentation du tour du cyclisme qui va dérouler à la ville de Montréal .',
+    openGraph: {
+        title: 'Cyclisme | Tour Montréal',
+        description: 'Présentation du tour du cyclisme qui va dérouler à la ville de Montréal.',
+        images: ['/Montreal.jpg']
+    }
+}
 
 export default function MontrealTour() {
     return <div className={styles.montrealTour}>

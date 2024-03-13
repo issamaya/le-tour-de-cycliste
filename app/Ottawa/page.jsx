@@ -12,6 +12,19 @@ import parlement from '@/public/parlement.jpeg';
 import styles from '../Ottawa/Ottawa.module.css';
 import Link from 'next/link';
 
+/**
+ * @type {import("next").Metadata}
+ */
+export const metadata = {
+    title: 'Cyclisme | Tour Ottawa',
+    description: 'Présentation du tour du cyclisme qui va dérouler à la ville d\'Ottawa .',
+    openGraph: {
+        title: 'Cyclisme | Tour Ottawa',
+        description: 'Présentation du tour du cyclisme qui va dérouler à la ville d\'Ottawa.',
+        images: ['/Ottawa.jpg']
+    }
+}
+
 export default function OttawaTour() {
     return <div className={styles.ottawaTour}>
         <h1 className={styles.titre}>Le circuit de Ottawa </h1>

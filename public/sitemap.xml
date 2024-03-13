@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://localhost:3000</loc>
+        <lastmod>2024-01-29</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://localhost:3000/Ottawa</loc>
+        <lastmod>2024-03-08</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://localhost:3000/Montreal</loc>
+        <lastmod>2024-01-29</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+    </url>
+     <url>
+        <loc>http://localhost:3000/Formulaire</loc>
+        <lastmod>2024-02-29</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset>

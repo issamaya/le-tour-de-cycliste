@@ -1,10 +1,22 @@
 import Image from 'next/image';
 import Ottawa from '@/public/Ottawa.jpg';
 import Montreal from '@/public/Montreal.jpg';
-
-
 import styles from '@/app/page.module.css';
 import Link from 'next/link';
+
+/**
+ * @type {import("next").Metadata}
+ */
+export const metadata = {
+  title: 'Cyclisme | Accueil',
+  description: 'Présentation du tour du cyclisme qui va dérouler au Canada .',
+  openGraph: {
+      title: 'Cyclisme | Accueil',
+      description: 'Présentation du tour du cyclisme qui va dérouler au Canada.',
+      images: ['/Cyclisme.jpg']
+  }
+}
+
 export default function Acceuil() {
   return (
     <div className={styles.container}>

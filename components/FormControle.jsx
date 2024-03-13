@@ -83,7 +83,7 @@ export default function FormControle() {
             setMotif('');
             setMessage('');
     }
-    return <form className={styles.form} onSubmit={handleSubmit}>
+    return <form className={styles.form} onSubmit={handleSubmit} noValidate>
         <label>
             Nom
             <input
@@ -107,7 +107,7 @@ export default function FormControle() {
         <label>
             Courriel
             <input
-                type="text"
+                type="email"
                 name="courriel"
                 value={courriel}
                 onChange={handleCourriel} />
