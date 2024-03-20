@@ -80,13 +80,8 @@
 
   .section {
     width: 100%;
+    /* Occupation totale de la largeur sur les petits écrans */
     padding: 0.5rem;
-  }
-
-  .imgHead {
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
   }
 
   .img {
@@ -96,11 +91,27 @@
     height: auto;
   }
 
-  .image {
-    margin: 0 auto;
-    margin-bottom: 20px;
-    max-width: 100%;
-    height: auto;
+  .imgHead {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
   }
+
+  .titre {
+    font-size: 5vw;
+    /* Taille de police réduite pour le titre */
+    margin: 2rem auto;
+    text-align: center;
+  }
+
+  .p,
+  .pp {
+    font-size: 5vw;
+    /* Taille de police réduite pour le texte */
+    line-height: 1.5;
+    color: #666;
+    padding: 0 1rem;
+  }
+
 
 }

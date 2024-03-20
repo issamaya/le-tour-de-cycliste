@@ -43,8 +43,6 @@
   background-color: lightblue;
 }
 
-
-
 .scrollContainer {
   display: flex;
   animation: scroll 20s linear infinite;
@@ -65,15 +63,13 @@
   .logo {
     width: 3rem;
   }
-
-  .ville {
-    width: 150px;
-    height: 100px;
-  }
 }
 
  @media screen and (max-width: 600px) {
   .header h1 {
     font-size: 1.5rem;
+  }
+  .scrollContainer {
+    animation: scroll 20s linear infinite;
   }
 }

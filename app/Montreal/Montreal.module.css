@@ -106,6 +106,24 @@
     .img {
         flex: 0 0 48%;
         margin-bottom: 20px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .titre {
+        font-size: 5vw;
+        /* Taille de police réduite pour le titre */
+        margin: 2rem auto;
+        text-align: center;
+    }
+
+    .p,
+    .pp {
+        font-size: 5vw;
+        /* Taille de police réduite pour le texte */
+        line-height: 1.5;
+        color: #666;
+        padding: 0 1rem;
     }
 
     .imgMontreal {

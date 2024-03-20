@@ -4,7 +4,6 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '@/public/we.png';
-import ville from '@/public/ottawa-vs-toronto.jpg'
 import cyclisme1 from '@/public/cyclisme1.jpg'
 import Tour_cycliste from '@/public/Tour_cycliste.jpg'
 import tourOttawa2 from '@/public/tourOttawa2.jpg'
@@ -30,7 +29,6 @@ export default function Header() {
       </div>
       <Container fluid className={styles.container}>
         <div className={styles.scrollContainer}>
-          <Image className={styles.ville} src={ville} alt="ville" />
           <Image className={styles.ville} src={cyclisme1} alt="cyclisme1" />
           <Image className={styles.ville} src={Tour_cycliste} alt="Tour_cycliste" />
           <Image className={styles.ville} src={tourOttawa} alt="tourOttawa" />
@@ -41,7 +39,6 @@ export default function Header() {
           
         </div>
       </Container>
-
     </header>
   );
 }

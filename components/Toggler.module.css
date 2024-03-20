@@ -1,5 +1,17 @@
-.titre{
+.titre {
     font-size: 24px;
     color: blue;
     font-weight: bold;
+}
+
+/* les petits ecrans*/
+
+@media screen and (max-width: 1300px) {
+
+    .titre {
+        font-size: 6vw;
+        /* Taille de police réduite pour le titre sur les petits écrans */
+
+        text-align: left;
+    }
 }

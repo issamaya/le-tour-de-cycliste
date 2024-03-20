@@ -1,13 +1,11 @@
-
-
 .Caption {
     font-size: 2rem;
     padding: 1rem 2rem;
-    color: white;
-    background-color: #4CAF50; 
+    color: rgb(17, 16, 16);
+    background-color: #4CAF50;
     border-radius: 10px;
-    margin: 0 auto; /* Centre le titre horizontalement */
-    text-align: center; /* Centre le texte à l'intérieur de la carte */
+    margin: 0 auto;
+    /* Centre le titre horizontalement */
+    text-align: center;
+    /* Centre le texte à l'intérieur de la carte */
 }
-
- 

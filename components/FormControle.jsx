@@ -9,13 +9,11 @@ export default function FormControle() {
     const [courriel, setCourriel] = useState('');
     const [motif, setMotif] = useState('');
     const [message, setMessage] = useState('');
-
     const handleNom = (event) => setNom(event.target.value);
     const handlePrenom = (event) => setPrenom(event.target.value);
     const handleCourriel = (event) => setCourriel(event.target.value);
     const handleMotif = (event) => setMotif(event.target.value);
     const handleMessage = (event) => setMessage(event.target.value);
-
     const [erreurNom, setErreurNom] = useState('');
     const [erreurPrenom, setErreurPrenom] = useState('');
     const [erreurCourriel, setErreurCourriel] = useState('');
@@ -23,7 +21,7 @@ export default function FormControle() {
     const [erreurMessage, setErreurMessage] = useState('');
     const [envoiReussi, setEnvoiReussi] = useState(false);
 
-   useEffect(() => {
+    useEffect(() => {
         if (envoiReussi) {
             const timer = setTimeout(() => {
                 setEnvoiReussi(false);
@@ -37,7 +35,7 @@ export default function FormControle() {
         let erreur = false;
 
         const regexCaracteresSpeciaux = /[!@#$%^&*(),.?":{}|<>]/;
-        
+
         if (!nom || nom.length < 4 || regexCaracteresSpeciaux.test(nom)) {
             setErreurNom('Le nom d\'utilisateur doit contenir plus de 4 lettres et ne doit pas contenir de caractères spéciaux');
             erreur = true;
@@ -76,12 +74,12 @@ export default function FormControle() {
         if (erreur) {
             return;
         }
-            setEnvoiReussi(true);
-            setNom('');
-            setPrenom('');
-            setCourriel('');
-            setMotif('');
-            setMessage('');
+        setEnvoiReussi(true);
+        setNom('');
+        setPrenom('');
+        setCourriel('');
+        setMotif('');
+        setMessage('');
     }
     return <form className={styles.form} onSubmit={handleSubmit} noValidate>
         <label>

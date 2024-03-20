@@ -10,15 +10,25 @@
 .nav Link {
   cursor: pointer;
   font-size: 24px;
-  color: #000;
+  color: black;
   text-decoration: none;
 }
 
-.contact{
+.lien {
   color: blue;
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none; /* Pour supprimer le soulignement par défaut */
 }
+
+.lien:hover {
+  text-decoration: underline; /* Souligner le lien au survol */
+}
+
+.lien:active,
+.lien:focus {
+  color: rgb(255, 0, 140); /* Couleur normale pendant le clic */
+}
+
 
 @media screen and (max-width: 1200px) {
   .nav Link {

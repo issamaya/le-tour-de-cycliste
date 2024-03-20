@@ -10,7 +10,7 @@ export default function Toggler({ children, titre }) {
     }
 
     const handleClick = (e) => {
-        
+
         if (e.target.tagName.toLowerCase() === "a") {
             setHidden(true); // Ferme le Toggler si c'est un lien
         }

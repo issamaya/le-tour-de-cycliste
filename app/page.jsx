@@ -22,16 +22,16 @@ export default function Acceuil() {
     <div className={styles.container}>
       <h1>Bienvenue sur le site Cyclisme Tours</h1>
       <p className={styles.text}>
-        Rejoignez-nous pour une expérience de cyclisme inoubliable à l'occasion du Tour du Cycliste,
+        Rejoignez-nous pour une expérience de cyclisme inoubliable à l&apos;occasion du Tour du Cycliste,
         un événement captivant qui se déroulera simultanément à Montreal et Ottawa !
-        Organisé par l'association à but non lucratif "Cyclisme pour Tout le Monde",
+        Organisé par l&apos;association à but non lucratif &quot;Cyclisme pour Tout le Monde&quot;,
         cet événement est conçu pour rassembler les passionnés de cyclisme de tous horizons.
         Préparez-vous à vivre des moments palpitants de compétition, de découverte et de camaraderie.
         La date à marquer dans vos agendas est le [26 juin 2024]. Que vous soyez un cycliste
-        chevronné ou que vous souhaitiez simplement vivre l'excitation de cet événement exceptionnel,
+        chevronné ou que vous souhaitiez simplement vivre l&apos;excitation de cet événement exceptionnel,
         nous vous invitons à vous inscrire et à faire partie de cette aventure cycliste unique.
         Venez pédaler à travers les rues emblématiques de Montreal et Ottawa, découvrez des paysages
-        époustouflants et partagez votre passion pour le cyclisme. Ne manquez pas l'opportunité
+        époustouflants et partagez votre passion pour le cyclisme. Ne manquez pas l&apos;opportunité
         de participer à cet événement ouvert à tous ! Inscrivez-vous dès maintenant et rejoignez-nous
         pour célébrer la joie du cyclisme ensemble.
       </p>
@@ -42,8 +42,8 @@ export default function Acceuil() {
           <Image src={Montreal} alt="Montreal" width={600} height={400} />
         </Link>
         <p className={styles.text}>
-          Bienvenue à OM-Cyclisme, l'événement de cyclisme incontournable
-          qui captivera les amateurs de vélo à Montréal. Plongez dans l'univers
+          Bienvenue à OM-Cyclisme, l&apos;événement de cyclisme incontournable
+          qui captivera les amateurs de vélo à Montréal. Plongez dans l&apos;univers
           passionnant du cyclisme de classe mondiale alors que notre événement transforme
           cette grande ville en une scène épique de compétition.
         </p>
@@ -55,8 +55,8 @@ export default function Acceuil() {
           <Image src={Ottawa} alt="Ottawa" width={600} height={400} />
         </Link>
         <p className={styles.text}>
-          Bienvenue à OM-Cyclisme, l'événement de cyclisme incontournable
-          qui captivera les amateurs de vélo à Ottawa et Toronto. Plongez dans l'univers
+          Bienvenue à OM-Cyclisme, l&apos;événement de cyclisme incontournable
+          qui captivera les amateurs de vélo à Ottawa et Toronto. Plongez dans l&apos;univers
           passionnant du cyclisme de classe mondiale alors que notre événement transforme
           ces deux grandes villes en scènes épiques de compétition.
         </p>
