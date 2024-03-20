@@ -53,14 +53,14 @@
 .p {
   font-size: 24px;
   line-height: 1.5;
-  color: #666;
+  color: gray;
   padding: 0 1rem;
 }
 
 .pp {
   font-size: 24px;
   line-height: 1.5;
-  color: #666;
+  color: gray;
 }
 
 .lien {
@@ -109,9 +109,7 @@
     font-size: 5vw;
     /* Taille de police réduite pour le texte */
     line-height: 1.5;
-    color: #666;
+    color: gray;
     padding: 0 1rem;
   }
-
-
 }
